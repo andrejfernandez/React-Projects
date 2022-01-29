@@ -4,4 +4,4 @@ Simple task app createed with...
 
 - React
 - TypeScript
-- Tailwinds CSS
+- TailwindCSS
