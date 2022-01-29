@@ -1,6 +1,6 @@
 # :pencil: ToDo List
 
-Simple task app createed with...
+Simple task app created with...
 
 - React
 - TypeScript
