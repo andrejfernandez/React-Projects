@@ -5,12 +5,12 @@ export const Data = [
     isCompleted: false,
   },
   {
-    id: "0",
+    id: "1",
     task: "Feed cat 2",
     isCompleted: true,
   },
   {
-    id: "0",
+    id: "2",
     task: "Feed cat 3",
     isCompleted: false,
   },
