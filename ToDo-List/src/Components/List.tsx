@@ -76,10 +76,12 @@ export const List = () => {
           />
         ))}
         <div className="Remaining">
-          {!hasToDos && <p className="text-center">Plan it out!</p>}
+          {!hasToDos && (
+            <h1 className="text-center text-xl mt-8">Plan it out!</h1>
+          )}
 
           {hasToDos && (
-            <p className="text-center">{`[${remainingToDos} of ${toDosLength}] remaining`}</p>
+            <h3 className="text-center text-xl mt-8">{`[${remainingToDos} of ${toDosLength}] remaining`}</h3>
           )}
         </div>
       </section>
