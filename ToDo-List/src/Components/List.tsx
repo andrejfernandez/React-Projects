@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from "uuid";
 
 import { Row } from "./Row";
 import AddTodo from "./AddToDo";
-import { ToDo } from "../Types";
-import { Data } from "../Data";
+import { ToDo } from "../Data/Types";
+import { Data } from "../Data/Data";
 
 export const List = () => {
   // State

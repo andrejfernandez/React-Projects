@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
-import { AddToDoProps } from "../Types";
+import { AddToDoProps } from "../Data/Types";
 
 const AddTodo = ({ task, handleChange, handleSubmit }: AddToDoProps) => (
   <div className="text-center mt-4 mb-4 w-full ">
